@@ -1,0 +1,13 @@
+https://github.com/Willviana08/gitHub.git
+
+
+Criar Branch) git branch NOME_DE_BRANCH
+Trocar) git checkout NOME_DA_BRANCH
+Criar arquivo) touch NOME_DO_ARQUIVO
+adicionar, commitar .. enviar  (git push)
+Git checkout master
+git merge NOMEDABRANCH
+
+
+
+Copia e cola esse comando git push --set-upstream origin teste

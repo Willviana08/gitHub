@@ -1,0 +1,95 @@
+C:\Users\Wilkerman Viana> cd gitHub
+
+C:\Users\Wilkerman Viana\gitHub>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 92DD-0F99
+
+ Pasta de C:\Users\Wilkerman Viana\gitHub
+
+26/03/2020  22:22    <DIR>          .
+26/03/2020  22:22    <DIR>          ..
+26/03/2020  22:22                38 README.md
+               1 arquivo(s)             38 bytes
+               2 pasta(s)   772.395.417.600 bytes disponíveis
+
+C:\Users\Wilkerman Viana\gitHub>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Wilkerman Viana\gitHub>touch arquivo2.txt
+'touch' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Wilkerman Viana\gitHub>git add arquivo.txt
+fatal: pathspec 'arquivo.txt' did not match any files
+
+C:\Users\Wilkerman Viana\gitHub>git commit -m "criei o arquivo.txt"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Wilkerman Viana\gitHub>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/Willviana08/gitHub.git/'
+
+C:\Users\Wilkerman Viana\gitHub>git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': Willviana08
+Password for 'https://Willviana08@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Willviana08/gitHub.git/'
+
+C:\Users\Wilkerman Viana\gitHub>git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Wilkerman Viana\gitHub>git branch will_viana
+
+C:\Users\Wilkerman Viana\gitHub>git checkout will_viana
+Switched to branch 'will_viana'
+
+C:\Users\Wilkerman Viana\gitHub> touch arquivo22.txt
+'touch' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Wilkerman Viana\gitHub>git commit -m "o touch no meu git cmd nao funciona"
+On branch will_viana
+nothing to commit, working tree clean
+
+C:\Users\Wilkerman Viana\gitHub>git push
+fatal: The current branch will_viana has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin will_viana
+
+
+C:\Users\Wilkerman Viana\gitHub>
+
+C:\Users\Wilkerman Viana\gitHub>
+
+C:\Users\Wilkerman Viana\gitHub>git push --set-upstream origin will_viana
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'will_viana' on GitHub by visiting:
+remote:      https://github.com/Willviana08/gitHub/pull/new/will_viana
+remote:
+To https://github.com/Willviana08/gitHub.git
+ * [new branch]      will_viana -> will_viana
+Branch 'will_viana' set up to track remote branch 'will_viana' from 'origin'.
+
+C:\Users\Wilkerman Viana\gitHub> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\Wilkerman Viana\gitHub>git merge will_viana
+Already up to date.
+
+C:\Users\Wilkerman Viana\gitHub>
+C:\Users\Wilkerman Viana\gitHub>
+C:\Users\Wilkerman Viana\gitHub>
